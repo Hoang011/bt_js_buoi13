@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>bt js</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <div class="container py-5">
+        <div class="bt1">
+            <h3>Bài 1: Tính tiền lương</h3>
+                    <div class="form-group">
+                    <label for="">Lương một ngày</label>
+                    <input value="" type="text" name="" id="luongMotNgay" class="form-control" placeholder="" aria-describedby="helpId">
+                  </div>
+                  <div class="form-group">
+                      <label for="">Số ngày làm</label>
+                      <input value="" type="text" name="" id="soNgayLam" class="form-control" placeholder="" aria-describedby="helpId">
+                    </div>
+                    <button class="btn btn-success" id="total">Tính </button>
+                    <br>
+                    <br>
+                    <label for="">Tiền lương của bạn là</label>
+                    <input id="totalOutput" type="text" class="form-control" style="width: 10%; border: none; color: red; font-size: 20px;">    
+        </div>
+        <div class="bt2">
+            <h3>Bài 2: Tính trung bình cộng</h3>
+            <div class="form-group">
+                <label for="">Nhập số thứ nhất</label>
+                <input value="" type="text" name="" id="s1" class="form-control" placeholder="" aria-describedby="helpId">
+              </div>
+              <div class="form-group">
+                <label for="">Nhập số thứ hai</label>
+                <input value="" type="text" name="" id="s2" class="form-control" placeholder="" aria-describedby="helpId">
+              </div>
+              <div class="form-group">
+                <label for="">Nhập số thứ ba</label>
+                <input value="" type="text" name="" id="s3" class="form-control" placeholder="" aria-describedby="helpId">
+              </div>
+              <div class="form-group">
+                <label for="">Nhập số thứ tư</label>
+                <input value="" type="text" name="" id="s4" class="form-control" placeholder="" aria-describedby="helpId">
+              </div>
+              <div class="form-group">
+                <label for="">Nhập số thứ năm</label>
+                <input value="" type="text" name="" id="s5" class="form-control" placeholder="" aria-describedby="helpId">
+              </div>
+              <button class="btn btn-success" id="tbc">Tính </button>
+                    <br>
+                    <br>
+                    <label for="">Trung bình cộng của 5 số là</label>
+                    <input id="tbcOutput" type="text" class="form-control" style="width: 10%; border: none; color: red; font-size: 20px;">    
+        </div>
+        <div class="bt3">
+            <h3>Bài 3: Quy đổi USD ==> VND</h3>
+                    <div class="form-group">
+                    <label for="">Nhập vào số tiền USD</label>
+                    <input value="" type="text" name="" id="tienUSD" class="form-control" placeholder="" aria-describedby="helpId">
+                  </div>
+                    <button class="btn btn-success" id="quyDoi">Quy đổi </button>
+                    <br>
+                    <br>
+                    <label for="">Số tiền sau quy đổi</label>
+                    <input id="vndOutput" type="text" class="form-control" style="width: auto; border: none; color: red; font-size: 20px;">    
+        </div>
+        <div class="bt4">
+            <h3>Bài 4: Tính chu vi diện tích hình chữ nhật</h3>
+                    <div class="form-group">
+                    <label for="">NNhập chiều dài</label>
+                    <input value="" type="text" name="" id="chieuDai" class="form-control" placeholder="" aria-describedby="helpId">
+                  </div>
+                  <div class="form-group">
+                    <label for="">NNhập chiều rộng</label>
+                    <input value="" type="text" name="" id="chieuRong" class="form-control" placeholder="" aria-describedby="helpId">
+                  </div>
+                    <button class="btn btn-success" id="btnbt4">Tính </button>
+                    <br>
+                    <br>
+                    <label for="">Chu vi hình chữ nhật bằng</label>
+                    <input id="chuVi" type="text" class="form-control" style="width: auto; border: none; color: red; font-size: 20px;">    
+                    <label for="">Diện tích hình chữ nhật bằng</label>
+                    <input id="dienTich" type="text" class="form-control" style="width: auto; border: none; color: red; font-size: 20px;">    
+        </div>
+        <div class="bt5">
+            <h3>Bài 5:Tính tổng hai kí số của số có 2 chữ số</h3>
+                    <div class="form-group">
+                    <label for="">Nhập vào số cần tính</label>
+                    <input value="" type="number" name="" id="nhapSo" class="form-control" placeholder="" aria-describedby="helpId">
+                  </div>
+                    <button class="btn btn-success" id="btnbt5">Tính </button>
+                    <br>
+                    <br>
+                    <label for="">Tổng hai kí số là</label>
+                    <input id="tongKiSO" type="text" class="form-control" style="width: auto; border: none; color: red; font-size: 20px;">    
+        </div>
+      </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <script src="main.js"></script>
+
+</body>
+</html>
